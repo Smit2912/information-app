@@ -1,8 +1,31 @@
-# React + Vite
+# 🎨 Information-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Information-App** is a React-based web application that fetches and displays user profiles using the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users). It allows you to:
+- 👍 Like profiles
+- 🖊️ Edit user details (with a modal pop-up)
+- 🗑️ Remove profiles (frontend only)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
+- 📋 Fetch user data using a REST API.
+- 🎭 Dynamic avatars powered by [DiceBear Avatars](https://avatars.dicebear.com/).
+- 🎨 Tailwind CSS for stunning and responsive design.
+- 💾 State management for real-time updates (no API persistence).
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ **React**: Component-based architecture for building UI.
+- 🌬️ **Tailwind CSS**: Utility-first CSS framework for styling.
+- 🌐 **Vite**: Fast and modern development build tool.
+- 🔄 **State Management**: For managing likes, edits, and removals.
+
+---
+
+## ⚙️ Installation & Usage
+
+1. **Clone the Repository** 🐙
+   ```bash
+   git clone https://github.com/<your-username>/<repository-name>.git
+   cd <repository-name>
